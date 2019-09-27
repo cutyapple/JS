@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>카드뒤집기</title>
+    <style>
+        .card{
+            width: 70px;
+            height: 100px;
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            perspective: 1000px;
+        }
+        .card-inner{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+        .card.flipped .card-inner{
+            transform: rotateY(180deg);
+        }
+        .card-front{
+            background-color: navy;
+        }
+        .card-back{
+            transform: rotateY(180deg);
+            background-color: gainsboro;
+        }
+        .card-front, .card-back{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="wrapper">
+        
+    </div>
+
+    <script src="카드뒤집기.js"></script>
+</body>
+</html>

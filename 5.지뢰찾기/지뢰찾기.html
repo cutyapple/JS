@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>지뢰찾기</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid #bbb;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            background-color: #222;
+            color: #222;
+        }
+        td.opened{
+            background-color: white;
+        }
+        td.flag{
+            background-color: red;
+        }
+        td.question{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <input type="number" id="hor" placeholder="가로" value="10">
+    <input type="number" id="ver" placeholder="세로" value="10">
+    <input type="number" id="mine" placeholder="지뢰" value="20">
+    <button id="exec">실행</button>
+    <table id="table">
+        <thead>
+            <tr>
+                <td><span id="timer">0</span>초</td>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <div id="result"></div>
+    <script src="지뢰찾기.js"></script>
+</body>
+</html>

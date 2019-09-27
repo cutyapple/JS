@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>반응속도테스트</title>
+    <style>
+        #screen:hover{
+            cursor: pointer;
+        }
+        #screen{
+            width: 500px;
+            height: 300px;
+            text-align: center;
+            font-size: 48px;
+            color: black;
+        }
+        #screen.waiting{
+            background-color: pink;
+        }
+        #screen.ready{
+            background-color: skyblue;
+        }
+        #screen.now{
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="screen" class="waiting">Click to Start</div>
+
+    <script src="반응속도테스트.js"></script>
+</body>
+</html>
