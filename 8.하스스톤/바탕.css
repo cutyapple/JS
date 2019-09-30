@@ -1,0 +1,171 @@
+body, html{
+    margin: 0;
+}
+
+hr{
+    margin: 0;  
+}
+
+#top{
+    width:1500px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#whole{
+    width: 1350px;
+    height: 700px;
+    border: 1px solid black;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+#enemy{
+    height: 50%;
+    width: 100%;
+    background-color: pink;
+    position: relative;
+}
+
+#e-cards{
+    width: 500px;
+    height: 150px;
+    background-color: orange;
+    display: inline-block;
+}
+
+#e-hero{
+    width: 112px;
+    height: 120px;
+    border-radius: 60% 60% 0 0;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    margin-left: 119px;
+}
+
+#e-hp{
+    background-color: red;
+    color:white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    text-align: center;
+    line-height: 30px;
+    bottom: 0;
+    right: 0;
+}
+
+#e-cost{
+    width: 50px;
+    height: 30px;
+    background-color: skyblue;
+    border: 1px solid blue;
+    border-radius: 40% ;
+    position: absolute;
+    top: 100px;
+    right: 500px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold; 
+}
+
+#me{
+    height:50%;
+    width: 100%;
+    background-color: khaki;
+    position: relative;
+}
+
+#e-deck{
+    width: 100px;
+    height: 150px;
+    border: 2px solid black;
+    position: absolute;
+    top: 50px;
+    right: 250px;
+}
+#e-decks{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+
+#m-cards{
+    width: 500px;
+    height: 150px;
+    background-color: orange;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+}
+
+#m-hero{
+    width: 112px;
+    height: 120px;
+    border-radius: 60% 60% 0 0;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    margin-left: 119px;
+    bottom: 0;
+    left: 500px;
+}
+
+#m-hp{
+    background-color: red;
+    color:white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    text-align: center;
+    line-height: 30px;
+    bottom: 0;
+    right: 0;
+}
+
+#m-cost{
+    width: 50px;
+    height: 30px;
+    background-color: skyblue;
+    border: 1px solid blue;
+    border-radius: 40% ;
+    position: absolute;
+    bottom: 100px;
+    right: 500px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold; 
+}
+
+#m-deck{
+    width: 100px;
+    height: 150px;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 50px;
+    right: 250px;
+}
+#m-decks{
+    position: absolute;
+    bottom: 50px;
+    right: 200px;
+}
+
+#turnEnd{
+    width:100px;
+    height: 30px;
+    background-color: rgb(223, 209, 20);
+    border: 1px solid black;
+    border-radius: 30%;
+    position: absolute;
+    right: 150px;
+    top:370px;
+}
